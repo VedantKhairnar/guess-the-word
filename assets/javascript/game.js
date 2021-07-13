@@ -89,18 +89,21 @@ window.setInterval(function() {
 function Hangman() {
 	this.wordList = [
 		"persistent",//Persistent System Words from here
-		"System",
+		"Ingeniuos",
 		"technology",
 		"services",
-		"company",
-		"Private",
-		"Limited",
-		"Anand",
-		"Deshpande",
-		"Sandeep",
-		"Kalra",
-		"Atul",
-		"Khadilkar"
+		"Confident",
+		"Responsible",
+		"See beyond rise above",
+		"Anand Deshpande",
+		"Pune",
+		"Sandeep Kalra",
+		"Imagine",
+		"Modernize",
+		"Engineer",
+		"Manage",
+		"Atul Khadilkar",
+		""
 	]
 
 	this.word = this.wordList[Math.floor(Math.random() * this.wordList.length)];
