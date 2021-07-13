@@ -94,16 +94,11 @@ function Hangman() {
 		"services",
 		"Confident",
 		"Responsible",
-		"See beyond rise above",
-		"Anand Deshpande",
 		"Pune",
-		"Sandeep Kalra",
 		"Imagine",
 		"Modernize",
 		"Engineer",
-		"Manage",
-		"Atul Khadilkar",
-		""
+		"Manage"
 	]
 
 	this.word = this.wordList[Math.floor(Math.random() * this.wordList.length)];
